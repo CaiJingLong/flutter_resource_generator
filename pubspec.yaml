@@ -5,15 +5,15 @@ version: 0.6.1
 description: Automatically generate a resource file by scanning pubspec.yaml to correspond to the flutter's asset, imitation R file short name.
 
 environment:
-  sdk: ">=2.0.0 <3.0.0"
+  sdk: ">=2.12.0-0 <3.0.0"
 
 dependencies:
-  args: ^1.5.2
+  args: ^2.0.0
+  dart_style: ^1.3.8
+  glob: ^2.0.0
   io: ^0.3.3
   path: ^1.6.4
-  yaml: ^2.1.16
-  glob: ^1.2.0
-  dart_style: ^1.3.8
+  yaml: ^3.1.0
 
 executables:
   fgen: resource_generator
